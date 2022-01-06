@@ -4,8 +4,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  width: 1130px;
+  /* width: 1130px; */
   margin: 0 auto;
+  width: 80%;
 }
 .banner {
   margin-top: 10px;
@@ -119,4 +120,64 @@ body {
 .goals p {
   font-size: 15px;
   color: #424242;
+}
+.develop {
+  display: flex;
+  margin: 70px 0;
+}
+.develop-image {
+  width: 40%;
+  margin-right: 50px;
+}
+.develop-image img {
+  width: 85%;
+}
+.develop-content {
+  width: 50%;
+}
+.develop-content h1 {
+  font-size: 36px;
+  color: #333333;
+}
+.develop-content p {
+  margin-bottom: 30px;
+}
+
+.community {
+  display: flex;
+  margin: 70px 0;
+}
+.community-image {
+  width: 40%;
+  margin-left: 50px;
+}
+.community-image img {
+  width: 85%;
+}
+.community-content {
+  width: 50%;
+  margin-right: 75px;
+}
+.community-content h1 {
+  font-size: 36px;
+  color: #333333;
+}
+.community-content p {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #0b0d17;
+  color: white;
+}
+footer h2 {
+  font-family: "Yeseva One";
+  font-size: 36px;
+  font-style: italic;
+}
+footer p {
+  font-size: 10px;
+  color: #9d9d9d;
 }

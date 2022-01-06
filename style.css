@@ -166,6 +166,46 @@ body {
   margin-bottom: 30px;
 }
 
+.subcription {
+  display: flex;
+  margin: 50px 0;
+  background-color: #141c3a;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+.subcription-heading {
+  width: 30%;
+}
+.subcription-heading h1 {
+  color: white;
+  margin: 35px 35px;
+  text-transform: capitalize;
+}
+.subcription-paragraph {
+  width: 30%;
+}
+.subcription-paragraph p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 35px;
+}
+.subcription-button {
+  width: 30%;
+  text-align: end;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+.subcription-button a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #7510f7;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+.subcription-button a:hover {
+  background-color: #7510f7;
+}
 footer {
   text-align: center;
   padding: 30px;
